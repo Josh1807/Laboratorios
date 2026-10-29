@@ -1,0 +1,301 @@
+/*ESTILOS BASE Y GENERALES (Tus Ejemplos) */
+
+/* Encabezado y Pie de página */
+footer, header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+/* Títulos */
+.title {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+#main-title {
+  font-size: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+/* Menú de Navegación */
+.nav-menu {
+  padding-top: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0; /* Elimina el padding predeterminado de la lista */
+  display: flex; /* Para alinear horizontalmente los elementos del menú */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu-item {
+  margin: 0 5px;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Formularios*/
+.form-group {
+  padding-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 50px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2563eb; /* Un azul más oscuro al pasar el mouse */
+}
+
+/*SECCIÓN DE FOTOS DE LAS CONSOLAS*/
+
+#video-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+#video-section iframe {
+  max-width: 100%;
+  width: 600px;
+  height: 315px;
+  border-radius: 10px;
+  border: 5px solid #929292;
+}
+
+/*ADAPTACIONES PARA LAS TABLAS Y CONTENEDORES*/
+
+/* Estilos complementarios para las tablas estáticas requeridas */
+.table {
+  margin-bottom: 0;
+}
+
+.table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Ajuste responsivo de la clase pintar / tarjetas */
+.pintar {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.menu-item {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+/*ESTILOS PARA EL ENCABEZADO Y MENÚ DE NAVEGACIÓN*/
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px 15px;
+  text-align: center;
+  border-bottom: 2px solid #e9ecef;
+}
+
+#main-title {
+  color: #252741;
+  font-size: 2em;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Contenedor Principal del Menú */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Lista de Elementos (Ul) */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px; /* Espaciado entre botones */
+}
+
+/* Cada Item del Menú (Li) */
+.menu-item {
+  background-color: #75c862; /* Azul corporativo */
+  border-radius: 6px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Enlaces (A) */
+.menu-item a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 0.95em;
+  letter-spacing: 0.5px;
+}
+
+/* Efecto Hover (Al pasar el ratón) */
+.menu-item:hover {
+  background-color: #1d4ed8; /* Azul más oscuro */
+  transform: translateY(-2px); /* Eleva ligeramente el botón */
+}
+
+/* Estado Activo / Clic */
+.menu-item:active {
+  transform: translateY(0);
+}
+
+/* ESTILOS PARA EL FORMULARIO DE REGISTRO */
+
+#contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  min-height: 70vh;
+}
+
+#contenido section {
+  width: 100%;
+  max-width: 500px;
+}
+
+#contenido form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#contenido fieldset {
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0;
+}
+
+#contenido legend {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #2b2d42;
+  padding: 0 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 2px;
+  font-weight: 600;
+  color: #333333;
+  font-size: 0.95em;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box; /* Asegura que el padding no rompa el ancho */
+  margin-bottom: 15px;
+}
+
+/* Efecto al hacer clic en los inputs */
+.form-input:focus {
+  border-color: #2ae033;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Estilo para el botón de enviar (por si lo agregas luego dentro del formulario) */
+.submit-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+/*ESTILOS PARA EL LOGO*/
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+/* Estilo principal de la imagen del logotipo centrada */
+img {
+  display: block;             /* Convierte la imagen en bloque para permitir centrado */
+  margin: 20px auto;          /* Centra la imagen horizontalmente con espacio arriba/abajo */
+  max-width: 250px;           /* Controla que no sea demasiado grande */
+  width: 100%;                /* Se adapta de forma responsiva */
+  height: auto;               /* Mantiene la proporción original de la imagen */
+  border-radius: 12px;        /* Bordes ligeramente redondeados y modernos */
+  padding: 10px;              /* Espacio interno estilo tarjeta */
+  background-color: #ffffff;  /* Fondo blanco sutil alrededor del logo */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+  border: 1px solid #e9ecef;  /* Borde sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover opcional: se eleva un poco al pasar el mouse */
+img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.2);
+}
